@@ -36,8 +36,9 @@ button:hover{
 }
 span{
     display: inline-block;
-    justify-content: center;
+    text-align: center;
     color : red;
+    width: 100%;
     
 }
 .complete_form{

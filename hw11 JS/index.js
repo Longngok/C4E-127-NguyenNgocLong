@@ -36,5 +36,8 @@ login_form.onsubmit = (event)=>{
    if ( user && password && cfPassword !== [])
    {
     complete.style.display = "flex";
+    sUser.innerHTML ="";
+    sPass.innerHTML = "";
+    sCfpass.innerHTML ="";
    }
 }
